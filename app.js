@@ -6,7 +6,7 @@ import helmet from "helmet";
 import tweetsRouter from "./router/tweets.js";
 
 const app = express();
-
+console.log("start!");
 app.use(express.json());
 app.use(helmet());
 app.use(cors());
